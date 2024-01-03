@@ -1,0 +1,51 @@
+GET http://localhost:3000
+
+### get all books
+DELETE  http://localhost:3000/api/books/2
+### get all users
+GET http://localhost:3000/api/users
+
+### get all towns
+GET http://localhost:3000/api/users/town
+
+### get Single user
+GET http://localhost:3000/api/users/3
+
+### delete a user
+DELETE http://localhost:3000/api/users/2
+
+### 
+
+GET https://jsonplaceholder.typicode.com/users
+
+### Create user
+
+POST http://localhost:3000/api/users
+Content-Type:  application/json
+
+{
+  "name": "sdsd",
+  "town": " ",
+  "isDriver": false
+}
+### Update user
+
+PUT http://localhost:3000/api/users/1
+Content-Type:  application/json
+
+{
+  "name": "Eik Jau",
+  "town": "Kazkur",
+  "isDriver": true
+}
+
+### Test
+
+PUT http://localhost:3000/api/test
+Content-Type:  application/json
+
+{
+  "name": "Mike",
+  "town": "Kazkur",
+  "isDriver": false
+}
